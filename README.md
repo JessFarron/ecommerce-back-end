@@ -1,9 +1,17 @@
-# ecommerce-back-end 
+# ecommerce-back-end    [![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+* [Description](#description)
+* [Installation and Setup](#installationandsetup)
+* [Usage](#usage)
+* [Walkthrough Video](#walkthroughvideo)  
+* [API routes](apiroutes)
+
+## Description
 This is the back end for an e-commerce website built using Express.js API and Sequelize to interact with a MySQL database. 
 The purpose of this project is to provide a functional and efficient back end system for an internet retail company, enabling them to compete with other e-commerce companies.
 
-# Installation and Setup
-
+## Installation and Setup
 1. Clone the starter code repository to your local machine.
 2. Create your own repository with the cloned code. Note: Do not fork the starter code repository.
 3. Install the required dependencies by running the following command:
@@ -21,37 +29,37 @@ DB_PASSWORD: Your MySQL password
 7. To populate the e-commerce database with the data, run the following command at package.json level:
 ```npm run seed```
 
-# Usage
+## Usage
 To run the application, execute the following command:
 - `npm run watch nodemon` or `npm start` 
 This will start the server and sync the Sequelize models with the MySQL database.
 
-# Walkthrough Video
+## Walkthrough Video
 
-# API Routes
+## API Routes
 The application provides the following API routes:
 
-## GET routes in Insomnia Core:
+### GET routes in Insomnia Core:
 - /api/categories: Returns all categories in a formatted JSON.
 - /api/products: Returns all products in a formatted JSON.
 - /api/tags: Returns all tags in a formatted JSON.
 
-## GET routes (by ID) in Insomnia Core:
+### GET routes (by ID) in Insomnia Core:
 - /api/categories/:id: Returns a single category by its ID in a formatted JSON.
 - /api/products/:id: Returns a single product by its ID in a formatted JSON.
 - /api/tags/:id: Returns a single tag by its ID in a formatted JSON.
 
-## POST routes in Insomnia Core:
+### POST routes in Insomnia Core:
 - /api/categories: Creates a new category.
 - /api/products: Creates a new product.
 - /api/tags: Creates a new tag.
 
-## PUT routes in Insomnia Core:
+### PUT routes in Insomnia Core:
 - /api/categories/:id: Updates an existing category by its ID.
 - /api/products/:id: Updates an existing product by its ID.
 - /api/tags/:id: Updates an existing tag by its ID.
 
-## DELETE routes in Insomnia Core:
+### DELETE routes in Insomnia Core:
 - /api/categories/:id: Deletes an existing category by its ID.
 - /api/products/:id: Deletes an existing product by its ID.
 - /api/tags/:id: Deletes an existing tag by its ID.
