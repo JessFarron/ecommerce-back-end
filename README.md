@@ -35,6 +35,7 @@ To run the application, execute the following command:
 This will start the server and sync the Sequelize models with the MySQL database.
 
 ## Walkthrough Video
+[e-commerce Backend walkthrough video.webm](https://github.com/JessFarron/ecommerce-back-end/assets/126412050/15e440ec-1422-4266-a7f2-00876cf7e50c)
 
 ## API Routes
 The application provides the following API routes:
