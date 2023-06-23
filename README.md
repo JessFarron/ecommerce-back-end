@@ -5,7 +5,7 @@
 * [Installation and Setup](#installationandsetup)
 * [Usage](#usage)
 * [Walkthrough Video](#walkthroughvideo)  
-* [API routes](apiroutes)
+* [API routes](#apiroutes)
 
 ## Description
 This is the back end for an e-commerce website built using Express.js API and Sequelize to interact with a MySQL database. 
